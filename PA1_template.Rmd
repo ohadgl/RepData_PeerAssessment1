@@ -1,6 +1,6 @@
 #Project assignment
 Code for reading in the dataset and/or processing the data
-```{R}
+```{r}
 actv <- read.csv('activity.csv')
 actv$date <- as.Date(actv$date , "%Y-%m-%d")
 ```
